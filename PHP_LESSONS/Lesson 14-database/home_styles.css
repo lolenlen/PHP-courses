@@ -1,0 +1,44 @@
+body {
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 88vh;
+  background-image: url(images/background_hell.png);
+}
+
+.hell_page {
+  margin: 0;
+  padding: 0;
+  background-image: url(images/this_is_hell.png);
+  background-size: 100vmin;
+  height: 100vmin;
+  width: 100vmin;
+  background-repeat: no-repeat;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 0 1001000px 10px rgb(255, 0, 0);;
+}
+
+.hell_h {
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 10px;
+  font-size: 100px;
+}
+
+.hell_logout {
+  position: absolute;
+  bottom: 40px;
+  left: 48%;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.current_user {
+  z-index: 0;
+  color: aliceblue;
+}
+
